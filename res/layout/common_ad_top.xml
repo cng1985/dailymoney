@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.iym.dailymoney">
+	<com.adwo.adsdk.AdwoAdView android:id="@+id/ad1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		app:background="#000000" app:primaryText="#FFFFFF"
+		app:secondaryTextColor="#CCCCCC" app:isTesting="false" />
+</merge>

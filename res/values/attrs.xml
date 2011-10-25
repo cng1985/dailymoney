@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="com.madhouse.android.ads.AdView">
+		<attr name="debug" format="boolean"/>
+		<attr name="adPosition" format="string" />
+		<attr name="adInterval" format="integer" />
+		<attr name="adMeasure" format="integer" />
+		<attr name="adBannerAnimation" format="integer" />
+	</declare-styleable>
+	
+	<declare-styleable name="cn.domob.android.ads.DomobAdView">
+		<attr name="backgroundColor" format="color" />
+		<attr name="primaryTextColor" format="color" />
+		<attr name="keywords" format="string" />
+		<attr name="spots" format="string" />
+		<attr name="refreshInterval" format="integer" />
+	</declare-styleable>
+	<declare-styleable name="com.adwo.adsdk.AdwoAdView">
+		<attr name="background" format="color" />
+		<attr name="primaryText" format="color" />
+		<attr name="secondaryTextColor" format="color" />
+		<attr name="refresh" format="integer" />
+		<attr name="isTesting" format="boolean" />
+	</declare-styleable>
+
+</resources>

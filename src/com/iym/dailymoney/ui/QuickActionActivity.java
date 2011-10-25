@@ -16,8 +16,10 @@
 package com.iym.dailymoney.ui;
 
 import greendroid.app.ActionBarActivity;
+import greendroid.graphics.drawable.ActionBarDrawable;
 import greendroid.widget.ActionBarItem;
 import greendroid.widget.ActionBarItem.Type;
+import greendroid.widget.NormalActionBarItem;
 import greendroid.widget.QuickAction;
 import greendroid.widget.QuickActionBar;
 import greendroid.widget.QuickActionWidget;
@@ -83,7 +85,10 @@ public class QuickActionActivity extends NewContextsActivity {
 		setActionBarContentView(Res.layout.quick_action);
 
 		prepareQuickActionBar();
-		prepareQuickActionGrid();
+//		prepareQuickActionGrid();
+//		  addActionBarItem(getActionBar()
+//	                .newActionBarItem(NormalActionBarItem.class)
+//	                .setDrawable(new ActionBarDrawable(this, R.drawable.addd)), R.id.dt_info_weekly_expense);
 		addActionBarItem(Type.Add);
 		gridView = (GridView) findViewById(R.id.gridView1);
 		infoBook = (TextView)findViewById(Res.id.dt_info_book);
