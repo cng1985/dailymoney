@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="click each button to do the test" />
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			>
+            <Button
+                android:text="Reset Dataprovider"
+                android:id="@+id/test_resetDataprovider"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></Button>
+            <Button
+                android:text="Create Default Data"
+                android:id="@+id/test_createDefaultdata"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></Button>   
+            <Button
+                android:text="Test Preferences"
+                android:id="@+id/test_prefs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></Button>             
+			<Button
+				android:text="Test Account Mgnt"
+				android:id="@+id/test_accountMgnt"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"></Button>
+			<Button
+				android:text="Test CSV"
+				android:id="@+id/test_csv"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"></Button>
+			<Button
+				android:text="Test Update Detail"
+				android:id="@+id/test_updateDetail"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"></Button>
+			<Button
+				android:text="Test List Detail"
+				android:id="@+id/test_listDetail"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"></Button>
+
+			<Button
+				android:text="padding"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"></Button>
+			<Button
+				android:text="padding"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"></Button>							
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

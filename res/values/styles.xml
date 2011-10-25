@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 
+    refer to /core/res/res/values/ themes.xml
+     -->
+	<style name="Theme.Password" parent="@android:style/Theme.Dialog">
+	</style>
+</resources>

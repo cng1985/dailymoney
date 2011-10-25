@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.iym.dailymoney" android:versionCode="1"
+	android:versionName="1.01">
+	<uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-sdk android:minSdkVersion="7" />
+	<application android:icon="@drawable/app_icon"
+		android:theme="@style/Theme.GDCatalog" android:label="@string/app_name"
+		android:name=".CatalogApplication">
+		<activity android:name="com.bottleworks.dailymoney.ui.DesktopActivity"
+			android:label="@string/app_name">
+		</activity>
+		<activity android:name=".ui.QuickActionActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.bottleworks.dailymoney.ui.BookMgntActivity"
+			android:label="@string/title_bookmgnt" />
+		<activity android:name="com.bottleworks.dailymoney.ui.BookEditorActivity" />
+
+		<activity android:name="com.bottleworks.dailymoney.ui.DetailListActivity"
+			android:label="@string/title_detlist" />
+		<activity android:name="com.bottleworks.dailymoney.ui.DetailEditorActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"></action>
+			</intent-filter>
+		</activity>
+		<activity android:name="com.bottleworks.dailymoney.ui.AccountMgntActivity"
+			android:label="@string/title_accmgnt" />
+		<activity android:name="com.bottleworks.dailymoney.ui.AccountEditorActivity" />
+		<activity android:name="com.bottleworks.dailymoney.ui.AccountDetailListActivity" />
+		<activity android:name="com.bottleworks.dailymoney.ui.PrefsActivity"
+			android:label="@string/title_prefs" />
+		<activity android:name="com.bottleworks.dailymoney.ui.DataMaintenanceActivity"
+			android:label="@string/title_datamain" />
+		<activity android:name="com.bottleworks.dailymoney.ui.PasswordProtectionActivity"
+			android:theme="@style/Theme.Password" android:label="@string/title_pdprotection" />
+		<activity android:name="com.bottleworks.dailymoney.ui.report.BalanceActivity"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+		<activity android:name="com.bottleworks.dailymoney.ui.AboutActivity"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+		<activity android:name="com.bottleworks.dailymoney.ui.LocalWebViewActivity"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+		<activity android:name="com.bottleworks.dailymoney.ui.LocalWebViewDlg"
+			android:theme="@android:style/Theme.Dialog" />
+		<activity android:name="com.bottleworks.dailymoney.calculator2.Calculator"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+		<activity android:name="org.achartengine.GraphicalActivity"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+		<!-- Adwo 广告SDK 所需要的Activity -->
+		<activity android:name="com.adwo.adsdk.AdwoSplashAdActivity"
+			android:label="@string/app_name" />
+		<activity android:name="com.adwo.adsdk.AdwoAdBrowserActivity"
+			android:label="@string/app_name" />
+		<meta-data android:value="d69dcc0d6b5749bea8a227a8e0a63382"
+			android:name="Adwo_PID" />
+	</application>
+
+</manifest> 

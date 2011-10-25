@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">每日记账</string>
+	<string name="app_surface">daily-money-core</string>
+	<string name="dtitem_detlist_day">日明细列表</string>
+	<string name="label_day_details">%1$s (%2$s records)</string>
+
+	<!-- above are verified -->
+
+	<!-- start from 20110508 -->
+	<string name="path_how2use">how2use.html</string>
+	<string name="dtitem_how2use">How to use</string>
+	<string name="label_what_is_new">What is new</string>
+	<string name="label_prefs_startday_month">每月的第一天</string>
+	<string name="label_prefs_startday_month_sum">设定每月的第一天( 1 - 28)</string>
+
+	<!-- start from 20110530 -->
+	<string name="label_default_book_symbol">$</string>
+	<string name="label_symbol">货币</string>
+	<string name="title_book">账本</string>
+	<string name="title_bookeditor_create">创建账本</string>
+	<string name="title_bookeditor_update">更新账本</string>
+	<string name="msg_book_created">账本 %1$s 创建成功</string>
+	<string name="msg_book_updated">账本 %1$s 更新成功</string>
+	<string name="msg_book_deleted">账本 %1$s 删除成功</string>
+	<string name="msg_cannot_delete_default_book">不能删除默认账本</string>
+	<string name="msg_cannot_delete_working_book">不能删除当前账本</string>
+	<string name="cat_set_working_book">设为默认账本</string>
+	<string name="title_bookmgnt">账本管理</string>
+
+	<string name="label_position_none">不显示</string>
+	<string name="label_position_front">前面</string>
+	<string name="label_position_after">后面</string>
+	<string name="label_symbol_position">货币显示位置</string>
+	<string name="dtitem_books">所有账本</string>
+	<string name="qmsg_delete_book">你确定要删除该账本 %1$s 以及对应的数据?
+	</string>
+	<string name="label_shared_all">Shared-All</string>
+	<string name="label_shared_account_only">Shared-Account only</string>
+	<string name="label_shared_detail_only">Shared-Detail only</string>
+
+	<!-- from 20110702 -->
+	<string name="act_toggle_hierarchical_report">切换</string>
+	<string name="label_firstday_sat">Saturday</string>
+
+	<string name="true_calce">您确定要退出吗?</string>
+	<string name="yes">确定</string>
+	<string name="no">取消</string>
+	<string name="empty_string"></string>
+</resources>
+

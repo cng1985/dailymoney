@@ -1,0 +1,89 @@
+= Last =
+== 0.9.7 ==
+=== Features ===
+ * 67: Please consider to change the report display format
+ *   : German translation. 
+ * 59: Add Saturday as beginning of the week
+=== Bugs ===
+ 
+
+
+===============================================================================
+= History = 
+== 0.9.6 ==
+=== Features ===
+ * 35: Daily List
+ * 21: Allow to store application in SD card
+ -- not released version
+ * 52: allow to add, copy detail in detail list in report activity 
+ * 38: i18n, zh_rCN
+ * 49: Russian translation
+ * 51: Allow ADW-Launcher to directly open DetailEditorActivity
+ *   : Italian translation.
+ * 45: Able to set start day of month
+ * 36: Support multiple DB instance
+ * 43: Able to set currency symbol for display.
+=== Bugs ===
+ * 34: Color issues when editing account
+ 
+== 0.9.5 ==
+=== Features ===
+ * 25:  Allow custom CSV Encoding
+ * 27:  provide hierarchical Account
+=== Bugs ===
+ * 24:  In main desktop, the weekly expense get zero randomly, especially on Sunday. 
+ * 26:  Desktop is still visible when password protection popped up
+ * 28:  exception from market report
+ * 30:  SQL encoding error
+=== Other ===
+ * Upgrade to achartengine 0.6.0
+ 
+ 
+== 0.9.4 ==
+=== Features ===
+ * 14:  Make today, future's detail more light in detail list
+ * 15:  Add more detail layout to list
+ * 16:  Yearly cumulative time chart
+ * 17:  Needs asset-liability run chart 
+ * 19:  Add google analytics and allow user to disable it
+ * 5:   A what is new dialog
+ * 20:  Show expense and cash in main desktop
+=== Bugs ===
+ * 
+=== Other ===
+ * 
+ 
+== 0.9.3 ==
+=== Features ===
+ * 12:  Needs detail list linking in balance report  
+ * 11:  Provide password protection
+ * 13:  Supports pie chart of balance
+=== Bugs ===
+ * 
+=== Other ===
+ * 
+
+== 0.9.2 ==
+=== Features ===
+ * 7:   Support back(share) CSV file by email
+ * 4:   Needs calculator when counting the money 
+ * 10:  Provide balance report
+=== Bugs ===
+ * 
+=== Other ===
+ * 8:   Account and Detail editor should change to Activity
+
+== 0.9.1 ==
+=== Features ===
+ * 3:   Add new account type Liability and Other
+ * 1:   Import & export should have a option for All/Account only/Detail only
+ * 6:   Backup CSV when do export.
+=== Bugs ===
+ * 2:   Wrong display in detail list if account not found
+
+== 0.9.0 ==
+=== Features ===
+ * Edit/Update account
+ * Edit/Update detail
+ * List weekly/monthly/weekly detail
+ * Export/Import to CSV 
